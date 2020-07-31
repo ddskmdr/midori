@@ -27,16 +27,21 @@ img{
 /*header*/
 
 header{
-  height: 30px;
+  height: 60px;
   background-color: rgb(176, 189, 103);
-  padding: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  height: 60px;
+  width: 200px;
 }
 
 .main-nav {
   display: flex;
   list-style-type: none;
+  padding: 20px;
 }
 
 .main-nav li {
@@ -45,12 +50,6 @@ header{
 
 .main-nav li:hover{
   color: rgb(199, 228, 233);
-}
-
-.wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 4%;
 }
 
 /*main*/
@@ -86,9 +85,9 @@ section h2{
   padding-bottom: 10px;
 }
 
-img{
-  height: 200px;
-  width: 200px;
+.illustrator {
+  height: 100px;
+  width: 100px;
   padding-bottom: 50px;
 }
 
