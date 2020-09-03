@@ -1,0 +1,18 @@
+
+/*スマホ用*/
+@media(max-width:670px){
+    nav{
+        display: none;
+    }
+
+    .top{
+        height: 400px;
+        width: 100%;
+    }
+    .top h2{
+        padding:30px;
+    }
+    
+}
+
+
