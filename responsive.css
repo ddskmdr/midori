@@ -12,6 +12,10 @@
     .top h2{
         padding:30px;
     }
+
+    .wrapper img{
+        width: 50%;
+    }
     
 }
 
