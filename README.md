@@ -1,2 +1,2 @@
 # my page
-https://ddskmdr.github.io/midori./
+https://ddskmdr.github.io/midori/
