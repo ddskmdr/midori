@@ -33,23 +33,42 @@ header{
   justify-content: space-between;
 }
 
-.logo {
-  height: 300px;
-  padding-left: 0;
+img.namelogo {
+  width: 15%;
 }
 
 .main-nav {
   display: flex;
-  list-style-type: none;
   padding: 20px;
+  text-align: center;
 }
 
-.main-nav li {
-  margin-right: 20px;
+
+/*追加*/  
+nav li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  min-width: 90px;
+}
+  
+nav li:not(:last-child){
+  border-right:2px solid #ddd;
 }
 
-.main-nav li:hover{
-  color: rgb(199, 228, 233);
+nav a{
+  text-decoration: none;
+  color: #333;
+}
+
+nav a.current{
+  color: #00B0F0;
+  border-bottom:2px solid #00B0F0;
+}
+
+nav a:hover{
+  color:#F7CB4D;
+  border-bottom:2px solid #F7CB4D;
 }
 
 /*main*/
@@ -62,7 +81,7 @@ h2{
 }
 
 .top{
-  background-image: url(https://github.com/ddskmdr/midori./blob/master/greg-rosenke-bJdK9v-VVw0-unsplash.jpg?raw=true);
+  background-image: url(image/greg-rosenke-bJdK9v-VVw0-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
