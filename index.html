@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>About_Me</title>
     <meta name ="description" content ="イラスト">
     <link rel="stylesheet" href="style.css">
@@ -13,16 +12,23 @@
 
   <body>
     <header class = "wrapper">
-      <img src="https://github.com/ddskmdr/midori/blob/master/2resize_logo.png?raw=true" alt="LOGO" class="namelogo">
+      <img src="image/2resize_logo.png" alt="LOGO" class="namelogo">
       
-      <nav>
-        <ul class ="main-nav">
-          
-          <li><a class="curent" href ="#about">About Me</a></li>
-          <li><a href="#skill">Skill</a></li>
-          <li><a href="#illust">Illustration</a></li>
-        </ul>
-      </nav>
+      <!--hamburger_menu-->
+      <input id ="menu" type="checkbox"/>
+      <label for="menu" class="open">🍔</label>
+      <label for="menu" class="back"></label>
+
+      <aside>
+        <label for="menu" class="close">×</label>
+        <nav>
+          <ul class ="main-nav">
+            <li><a class="curent" href ="#about">About Me</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#illust">Illustration</a></li>
+          </ul>
+        </nav>
+      </aside>
         
 
     </header>
@@ -66,7 +72,7 @@
   
         <section class ="hoby">
           <h2 id="illust">Illustration</h2>
-          <img src="https://github.com/ddskmdr/midori/blob/master/blackhare.JPG?raw=true" alt="女の子のイラスト" class="illustrator">
+          <img src="image/blackhare.JPG" alt="女の子のイラスト" class="illustrator">
         </section>
 
         <form class ="feedback">

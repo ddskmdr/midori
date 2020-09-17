@@ -81,7 +81,7 @@ h2{
 }
 
 .top{
-  background-image: url(https://github.com/ddskmdr/midori/blob/master/greg-rosenke-bJdK9v-VVw0-unsplash.jpg?raw=true);
+  background-image: url(image/greg-rosenke-bJdK9v-VVw0-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -122,3 +122,13 @@ footer{
   text-align: center;
 }
 
+/*9/17hamburger_menu追加*/
+.open,
+.close{
+    display: none;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    right: -50vw;
+}
